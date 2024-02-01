@@ -36,7 +36,7 @@ jobs:
             mvn -U clean install
             
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package -P all-tests-off --file pom.xml
 
   testing:
     runs-on: ubuntu-latest
