@@ -5,12 +5,12 @@
     <parent>
         <artifactId>warehouse</artifactId>
         <groupId>com.example</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.7-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dependence-bom-wharehouse</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.7-SNAPSHOT</version>
     <packaging>pom</packaging>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
