@@ -5,13 +5,13 @@
     <parent>
         <artifactId>common</artifactId>
         <groupId>com.example</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.7-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>warehouse</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.7-SNAPSHOT</version>
     <modules>
         <module>dependence-bom-wharehouse</module>
         <module>core</module>
