@@ -33,7 +33,7 @@ jobs:
             mkdir test-common
             cd test-common
             git clone https://github.com/Artem895/common-lib.git .
-            mvn -B package --file pom.xml
+            mvn -U clean install
             
     - name: Build with Maven
       run: mvn -B package --file pom.xml
