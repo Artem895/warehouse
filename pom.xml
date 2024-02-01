@@ -11,6 +11,7 @@
 
     <artifactId>warehouse</artifactId>
     <packaging>pom</packaging>
+    <version>0.0.2-SNAPSHOT</version>
     <modules>
         <module>dependence-bom-wharehouse</module>
         <module>core</module>
