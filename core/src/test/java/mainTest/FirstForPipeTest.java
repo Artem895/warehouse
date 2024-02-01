@@ -13,4 +13,9 @@ public class FirstForPipeTest {
     void firstTest_testPiplineTestJob_success() {
         assertThat("This is first test").isNotEmpty();
     }
+
+    @Test
+    void fail_test(){
+        assertThat("This is fail test").isEmpty();
+    }
 }
