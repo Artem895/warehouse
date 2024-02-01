@@ -5,14 +5,17 @@
     <parent>
         <artifactId>common</artifactId>
         <groupId>com.example</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>warehouse</artifactId>
     <packaging>pom</packaging>
+    <version>0.0.2-SNAPSHOT</version>
     <modules>
         <module>dependence-bom-wharehouse</module>
+        <module>core</module>
+        <module>migration</module>
     </modules>
 
     <properties>
@@ -20,5 +23,4 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 </project>

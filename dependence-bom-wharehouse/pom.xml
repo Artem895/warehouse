@@ -5,20 +5,34 @@
     <parent>
         <artifactId>warehouse</artifactId>
         <groupId>com.example</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dependence-bom-wharehouse</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <modules>
-        <module>../core</module>
-        <module>../migration</module>
-    </modules>
-
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+    <dependencyManagement>
+        <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-core</artifactId>
+                <version>3.11.0</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-api</artifactId>
+                <version>5.9.0</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
